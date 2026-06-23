@@ -1,0 +1,17 @@
+{
+  "name": "azure-architecture-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Azure architecture skill for landing zones, Well-Architected reviews, governance, diagrams, and Azure skill routing.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skill.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "scaffold": "node scripts/scaffold-skill.mjs",
+    "package": "node scripts/package-skill.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

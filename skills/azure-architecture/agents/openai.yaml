@@ -1,0 +1,8 @@
+interface:
+  display_name: "Azure Architecture"
+  short_description: "Azure landing zones, WAF, governance, and routing"
+  default_prompt: "Use $azure-architecture to design or review this Azure target architecture, landing zone, governance model, Well-Architected posture, diagrams, and execution handoffs."
+
+policy:
+  allow_implicit_invocation: true
+
