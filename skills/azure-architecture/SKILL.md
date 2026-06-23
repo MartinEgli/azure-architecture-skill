@@ -61,6 +61,9 @@ Do not use for final evidence acceptance or productive-use governance. Use
   deployment execution.
 - Mark assumptions, missing tenant/subscription facts, and unverified Azure
   constraints.
+- Keep architecture decisions, routing decisions, diagrams, and handoffs
+  traceable to supplied inputs, tool results, sources, or clearly marked
+  assumptions.
 - Prefer Azure-native secure defaults: managed identity, least privilege,
   private access where justified, policy guardrails, observability, and
   repeatable IaC.
@@ -130,6 +133,8 @@ request. Read `references/skill-routing.md`.
 
 ## Evidence Handling
 
+Use `references/evidence-traceability.md`.
+
 - Evidence: supplied diagram, IaC, Azure inventory, policy, source document, or
   explicit user fact.
 - Inference: architecture conclusion derived from evidence.
@@ -149,6 +154,7 @@ another format.
   addressed at the right depth.
 - Security approval concerns are handed to `enterprise-security-architecture`.
 - Deployment execution is routed to the right Azure execution skill.
+- Key Azure claims include source trace or are marked as assumptions.
 - Diagram scope stays at Azure architecture level.
 - Assumptions and gaps are visible.
 
@@ -169,4 +175,3 @@ another format.
 - Use Mermaid for quick diagrams and PlantUML/C4-style notation when the user
   wants architecture-as-code.
 - End with execution handoffs when implementation is requested.
-
