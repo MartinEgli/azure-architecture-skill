@@ -1,6 +1,6 @@
 {
   "name": "azure-architecture-skill",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Azure architecture skill for landing zones, Well-Architected reviews, governance, diagrams, and Azure skill routing.",
   "license": "MIT",
