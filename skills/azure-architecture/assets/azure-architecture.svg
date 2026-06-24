@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Azure Architecture">
+  <rect width="128" height="128" rx="24" fill="#0F172A"/>
+  <path d="M34 76c-9 0-16-7-16-16 0-8 6-15 14-16 4-11 15-19 28-19 16 0 29 12 30 28h4c9 0 16 7 16 16s-7 16-16 16H34Z" fill="#38BDF8"/>
+  <path d="M35 76h58" stroke="#E0F2FE" stroke-width="7" stroke-linecap="round"/>
+  <path d="M48 92h32M64 76v16" stroke="#93C5FD" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="48" cy="92" r="5" fill="#F8FAFC"/>
+  <circle cx="64" cy="92" r="5" fill="#F8FAFC"/>
+  <circle cx="80" cy="92" r="5" fill="#F8FAFC"/>
+</svg>
