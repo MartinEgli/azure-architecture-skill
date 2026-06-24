@@ -141,6 +141,9 @@ Use `references/evidence-traceability.md`.
 - Assumption: useful but unverified Azure or business hypothesis.
 - Gap: missing input that can change architecture or execution route.
 
+Include an Evidence Receipt for substantial findings, decisions, diagrams, or
+recommendations.
+
 ## Output Contracts
 
 Use `assets/templates/azure-architecture-output.md` unless the user asks for
