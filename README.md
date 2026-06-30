@@ -15,3 +15,10 @@ specialized Azure execution skills.
 - `/azure diagram`
 - `/azure route`
 
+
+## Continuous Improvement
+
+This skill supports an explicit feedback loop. Use /azure-architecture feedback to
+capture lessons and /azure-architecture improve to propose changes. Improvements must
+remain traceable, validated, committed on a feature branch, and pushed before
+they become part of the released skill behavior.

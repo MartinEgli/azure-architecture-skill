@@ -131,9 +131,22 @@ C4-style notation. Read `references/diagrams.md`.
 Choose the correct specialized Azure skill or architecture skill for the
 request. Read `references/skill-routing.md`.
 
-## Evidence Handling
 
-Use `references/evidence-traceability.md`.
+### /azure-architecture feedback
+
+Capture lessons from the current run without changing the skill automatically.
+Use eferences/feedback-route.md to classify user feedback, observed gaps,
+assumptions, candidate improvements, rejected ideas, and routed follow-ups.
+
+### /azure-architecture improve
+
+Review accumulated feedback and propose concrete skill changes. Use
+ssets/improvement-proposal-template.md. Do not modify behavior until the
+proposal names evidence, affected files, risks, validation commands, versioning
+impact, and rollback considerations.
+## Evidence Handling
+Use `references/evidence-traceability.md`.
+Use eferences/feedback-route.md when capturing or applying lessons from a run.
 
 - Evidence: supplied diagram, IaC, Azure inventory, policy, source document, or
   explicit user fact.
@@ -171,8 +184,15 @@ another format.
   verification.
 - Do not turn service-specific operations into broad architecture advice.
 
-## Output Style
 
+## Continuous Improvement
+
+This skill is self-improving only through an explicit, auditable feedback loop:
+feedback -> evidence -> improvement proposal -> feature branch -> validation ->
+commit -> push -> version or changelog update when needed. Do not silently alter
+skill behavior based on a single run. Preserve rejected and deferred ideas so
+future maintainers can see why they were not applied.
+## Output Style
 - Clear, structured, Azure-native, and decision-oriented.
 - Prefer tables for options, risks, and handoffs.
 - Use Mermaid for quick diagrams and PlantUML/C4-style notation when the user
